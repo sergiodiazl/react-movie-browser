@@ -1,0 +1,31 @@
+.search-button {
+    display: flex;
+    justify-content: center;
+  }
+  .search-button button {
+    padding: 10px 21px;
+    background: #e27a3f;
+    color: rgba(255,255,255, 0.75);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.2s ease-out;
+    outline: 0;
+    border: 0;
+    
+    font-family: "Concert One";
+    transition: all 0.5s ease;
+  }
+  
+  .search-button button:hover {
+    background-color: white;
+    color:#e27a3f;
+    border: 5px solid;
+    border-color:#e27a3f; 
+  }
+  .search-button button:disabled {
+    background-color: white;
+    color:#e27a3f;
+    border: 5px solid;
+    visibility: hidden;
+    border-color:#e27a3f; 
+  }

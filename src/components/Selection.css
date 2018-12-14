@@ -1,0 +1,17 @@
+
+.selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  
+  .selection label {
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .selection select {
+    max-width: 150px;
+  }

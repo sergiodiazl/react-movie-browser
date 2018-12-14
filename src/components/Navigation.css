@@ -1,0 +1,17 @@
+.navigation {
+	flex-basis: 20%;
+	min-width: 300px;
+	background: tomato;
+}
+
+.navigation-options{
+	position: sticky;
+	top:0;
+}
+
+@media ( max-width :600px){
+	.navigation-options{
+	
+		top:0;
+	}
+}
